@@ -1,6 +1,18 @@
+# Created by http://www.gitignore.io
+
+### Erlang ###
 .eunit
 deps
 *.o
 *.beam
 *.plt
 erl_crash.dump
+
+
+### Elixir ###
+/_build
+/deps
+erl_crash.dump
+*.ez
+
+.DS_Store
